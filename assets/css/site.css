@@ -17,3 +17,6 @@
 /* v0.5.2 final consistency: common card tracks align CTA/tag rows for desktop peers. */
 @media(min-width:641px){.projects .project{display:grid;grid-template-rows:auto auto auto minmax(0,1fr) auto auto}.projects .project>p{min-height:0;margin-bottom:0}.projects .project .project-link{grid-row:5;align-self:start;margin-top:20px}.projects .project .tags{grid-row:6;align-self:end;margin-top:0}}
 @media(max-width:640px){.projects .project{display:flex}.projects .project>p{min-height:0;margin-bottom:1em}.projects .project .project-link{margin-top:20px}.projects .project .tags{margin-top:auto}}
+/* v0.7 SR-P05 functional diagrams */
+.diagram .flow{flex-wrap:wrap}.diagram .node{min-width:110px}.diagram small{font-weight:500;color:var(--muted)}.diagram .caption{margin-top:18px}.diagram[role="img"]{outline:0}
+@media(max-width:900px){.diagram .flow{flex-direction:column;align-items:stretch}.diagram .arrow{transform:rotate(90deg);align-self:center}.diagram .node{min-width:0}}
